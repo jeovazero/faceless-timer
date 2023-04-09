@@ -9,6 +9,10 @@ body {
   background-color: var(--color-prim);
 }
 
+img {
+  margin: 1.5rem 0;
+}
+
 h3 {
   padding: 0;
   margin: 0;
@@ -16,6 +20,28 @@ h3 {
   font-weight: 400;
   line-height: 1;
   font-family: var(--font-prim);
+}
+
+footer {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1rem;
+  font-family: var(--font-prim);
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  outline: none;
+  text-decoration: none;
+  padding: 0px;
+  border-bottom: 2px dashed rebeccapurple;
+}
+footer p {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
 }
 
 .wrapper {
