@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geo&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Faceless Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3>Faceless Timer</h3>
+      <img class="faceless" width="200" src="img/faceless.png" />
+      <div id="timer" class="hidden">
+        <span id="hours"></span>
+        <div>:</div>
+        <span id="minutes"></span>
+        <div>:</div>
+        <span id="seconds"></span>
+      </div>
+      <div id="input-timer">
+        <input id="input-hours" />
+        <div>:</div>
+        <input id="input-minutes" />
+        <div>:</div>
+        <input id="input-seconds" />
+      </div>
+      <div class="controls">
+        <button id="play">Play</button>
+        <button id="pause" class="hidden">Pause</button>
+        <button id="reset" class="hidden">Reset</button>
+      </div>
+    </div>
+  </body>
+  <script src="./prelude.js"></script>
+  <script src="./index.js"></script>
+</html>

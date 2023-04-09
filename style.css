@@ -1,0 +1,94 @@
+:root {
+  --font-prim: "Secular One", sans-serif;
+  --font-sec: "Geo", sans-serif;
+  --color-prim: #ffdfa0;
+  --color-prim-accent: #f6d390;
+}
+
+body {
+  background-color: var(--color-prim);
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1;
+  font-family: var(--font-prim);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* TIMER */
+
+#timer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 2.75rem;
+  line-height: 1;
+  color: black;
+  font-family: var(--font-sec);
+}
+
+#timer > span {
+  display: inline-block;
+  line-height: 1;
+}
+
+#timer.hidden {
+  display: none;
+}
+
+/* input-timer */
+
+#input-timer {
+  display: flex;
+  width: 100%;
+  font-size: 2.75rem;
+  line-height: 1;
+  color: black;
+  font-family: var(--font-sec);
+  justify-content: center;
+}
+
+#input-timer > input {
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  font-size: 2.75rem;
+  color: black;
+  font-family: var(--font-sec);
+}
+
+#input-timer.hidden {
+  display: none;
+}
+
+/* Buttons */
+
+button {
+  font-family: var(--font-prim);
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 4px;
+  background-color: var(--color-prim);
+  color: black;
+  margin: 10px 0;
+  border: 3px solid black;
+}
+
+button:hover {
+  background-color: var(--color-prim-accent);
+  cursor: pointer;
+  box-shadow: 0px 1px #eee;
+}
+
+button.hidden {
+  display: none;
+}
